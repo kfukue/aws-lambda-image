@@ -1,0 +1,22 @@
+{
+  "bucket": "cdn.pacific-innovation.com",
+  "reduce": {
+      "directory": "./reduced",
+      "prefix": "reduced-",
+      "quality": 90
+  },
+  "resizes": [
+    {
+      "size": "960x640",
+      "suffix": "_desktop"
+    },
+    {
+      "size": "450x300",
+      "suffix": "_mobile"
+    },
+    {
+      "size": "75x50",
+      "suffix": "_thumbnail"
+    }
+  ]
+}
